@@ -1,8 +1,12 @@
-.carCard {
-	border: 1px solid;
+body {
+	padding-top: 200px;
+}
+
+.daveHeader {
 	padding: 1rem;
 }
 
-.selected {
-	border: 10px solid pink !important;
+.carCard {
+	border: 1px solid;
+	padding: 2rem;
 }

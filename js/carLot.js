@@ -17,7 +17,7 @@ var carLot = (function (car) {
                 <div>${carLot.convertToCurrency(car.price)}</div>
                 <div>Color: ${car.color}</div>
                 <div>${carLot.getAvailable(car.purchase)}</div>
-                <div>Desc: ${car.description}</div>
+                <div class="descr">Desc: ${car.description}</div>
               </div>`
     };
     car.convertToCurrency = function(num) {

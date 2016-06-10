@@ -8,35 +8,29 @@
 	<title>Document</title>
 </head>
 <body>
+  <nav class="navbar navbar-default navbar-fixed-top daveHeader">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="comment">New Descriptions:</label>
+            <textarea id="descInput" class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <div class="col-md-6">
+            <button class="navbar">Button</button>
+          </div>
+        </div>
+    </div>
+  </nav>
 
-    <div class="container-fluid">
+  <div class="container-fluid">
+    <div id="cars" class="jumbo-tron">
+    	
+    </div>
+    <footer class="footer">
+      <p>&copy; 2015 Company, Inc.</p>
+    </footer>
+  </div>
 
-      <!-- The justified navigation menu is meant for single line per list item.
-           Multiple lines will require custom code not provided by Bootstrap. -->
-      <div class="masthead">
-        <h3 class="text-muted">Car Lot</h3>
-        <nav>
-          <ul class="nav nav-justified">
-            <li><textarea name="" id="descInput" cols="30" rows="3"></textarea></li>
-            <li><button>Button</button></li>
-
-          </ul>
-        </nav>
-      </div>
-
-      <!-- cars go here -->
-      <div id="cars" class="row">
-      	
-      </div>
-
-      <!-- Site footer -->
-      <footer class="footer">
-        <p>&copy; 2015 Company, Inc.</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-	
   <script src="js/carLot.js"></script>
   <script src="js/carLot_dom.js"></script>
 	<script src="js/carLot_clickHandler.js"></script>
