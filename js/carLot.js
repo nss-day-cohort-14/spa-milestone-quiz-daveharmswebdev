@@ -10,8 +10,8 @@ var carLot = (function (car) {
       var obj = JSON.parse(this.responseText);
       carLot.displayCar(obj.cars);
     };
-    car.getCarHTML = function(car) {
-      return `<div class="carCard col-md-4">
+    car.getCarHTML = function(num, car) {
+      return `<div id="car--${num}" class="carCard col-md-4">
                 <div>${car.year} ${car.make} ${car.model}</div>
                 <div>${carLot.convertToCurrency(car.price)}</div>
                 <div>Color: ${car.color}</div>
