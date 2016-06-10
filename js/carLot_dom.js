@@ -5,6 +5,7 @@ var carLot = (function(car) {
 
 	car.init = function() {
 		carLot.requestInventory();
+		descInput.addEventListener('keyup', carLot.changeDesc);
 	};
 	car.displayCar = function(inventory) {
 		var elCarDiv;

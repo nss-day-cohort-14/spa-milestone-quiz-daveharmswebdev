@@ -10,6 +10,9 @@ var carLot = (function(lot) {
 		descInput.focus();
 		descInput.value = '';
 	};
+	lot.changeDesc = function() {
+		console.log(descInput.value);
+	};
 
 	return lot;
 
