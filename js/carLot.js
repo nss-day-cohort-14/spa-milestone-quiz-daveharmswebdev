@@ -9,6 +9,7 @@ var carLot = (function (car) {
     car.loadInventory = function(response) {
       var obj = JSON.parse(this.responseText);
       carLot.displayCar(obj.cars);
+      carLot.addListeners();
     };
     car.getCarHTML = function(num, car) {
       return `<div id="car--${num}" class="carCard col-md-4">

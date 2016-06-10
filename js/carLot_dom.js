@@ -1,20 +1,26 @@
 var carLot = (function(car) {
 
 	var carsPost = document.getElementById('cars');
+	var descInput = document.getElementById('descInput');
 
 	car.init = function() {
 		carLot.requestInventory();
+		descInput.addEventListener('keyup', carLot.changeDesc);
 	};
 	car.displayCar = function(inventory) {
-		for (var x = 0; x < inventory.length; x++) {
-			carsPost.innerHTML += carLot.getCarHTML(x+1,inventory[x]);
-			document.getElementById('car--' + (x+1)).style.border = `5px solid ${inventory[x].color}`;
-			document.getElementById('car--' + (x+1))addEventListener('click', carLot.clickHandler);
+		var elCarDiv;
+		for (var x = 1; x < inventory.length+1; x++) {
+			carsPost.innerHTML += carLot.getCarHTML(x,inventory[x-1]);
+			document.getElementById('car--' + x).style.border = `5px solid ${inventory[x-1].color}`;
 		}
+    };
+    car.addListeners = function() {
+    	el = document.getElementsByClassName('carCard');
+    	for (let x = 0; x < el.length; x++) {
+    		el[x].addEventListener('click', carLot.clickHandler);
+    	}
     };
 
 	return car;
 
 })(carLot || {});
-
-carLot.init();
