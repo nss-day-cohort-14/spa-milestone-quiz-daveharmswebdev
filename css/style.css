@@ -1,0 +1,12 @@
+body {
+	padding-top: 200px;
+}
+
+.daveHeader {
+	padding: 1rem;
+}
+
+.carCard {
+	border: 1px solid;
+	padding: 2rem;
+}

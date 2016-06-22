@@ -1,0 +1,94 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "1234",
+      "color": "red",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Mercedes",
+      "model": "e350",
+      "year": "2012",
+      "price": "12345",
+      "color": "blue",
+      "purchased": false,
+      "description": "Enjoyable to drive, meticulously built and available in a host of different body styles, the 2012 Mercedes-Benz E-Class is a luxury-car triumph that deserves serious consideration."
+    },
+    {
+      "make": "Lexus",
+      "model": "RX 350",
+      "year": "2014",
+      "price": "123456",
+      "color": "green",
+      "purchased": false,
+      "description": "The 2014 Lexus RX 350 is an appealing choice for a luxury crossover SUV, particularly if a smooth ride and luxurious interior are priorities."
+    },
+    {
+      "make": "Land Rover",
+      "model": "Supercharged LWB SUV",
+      "year": "2014",
+      "price": "89901",
+      "color": "grey",
+      "purchased": false,
+      "description": "There's no better indication of how far Land Rover has come in the past several years than the new long-wheelbase version of the 2014 Range Rover. Launched at the 2013 L.A. Auto Show , the top-of-the-line Land Rover was pitched as an alternative to ultra-luxury sedans like the new Bentley Flying Spur and Mercedes-Benz S-Class."
+    },
+    {
+      "make": "Fiat",
+      "model": "Spider",
+      "year": "2017",
+      "price": "8999",
+      "color": "goldenrod",
+      "purchased": false,
+      "description": "If the 124 looks familiar, that’s because underneath its sheetmetal lurks a Mazda MX-5 Miata. So how do they differ? The 124 is 5.5 inches longer, and under the hood is a 1.4-liter turbo four making 160 hp and 184 lb-ft versus the Miata’s 155 hp and 148 lb-ft."
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "1234",
+      "color": "red",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Mercedes",
+      "model": "e350",
+      "year": "2012",
+      "price": "12345",
+      "color": "blue",
+      "purchased": false,
+      "description": "Enjoyable to drive, meticulously built and available in a host of different body styles, the 2012 Mercedes-Benz E-Class is a luxury-car triumph that deserves serious consideration."
+    },
+    {
+      "make": "Lexus",
+      "model": "RX 350",
+      "year": "2014",
+      "price": "123456",
+      "color": "green",
+      "purchased": false,
+      "description": "The 2014 Lexus RX 350 is an appealing choice for a luxury crossover SUV, particularly if a smooth ride and luxurious interior are priorities."
+    },
+    {
+      "make": "Land Rover",
+      "model": "Supercharged LWB SUV",
+      "year": "2014",
+      "price": "89901",
+      "color": "grey",
+      "purchased": false,
+      "description": "There's no better indication of how far Land Rover has come in the past several years than the new long-wheelbase version of the 2014 Range Rover. Launched at the 2013 L.A. Auto Show , the top-of-the-line Land Rover was pitched as an alternative to ultra-luxury sedans like the new Bentley Flying Spur and Mercedes-Benz S-Class."
+    },
+    {
+      "make": "Fiat",
+      "model": "Spider",
+      "year": "2017",
+      "price": "8999",
+      "color": "goldenrod",
+      "purchased": false,
+      "description": "If the 124 looks familiar, that’s because underneath its sheetmetal lurks a Mazda MX-5 Miata. So how do they differ? The 124 is 5.5 inches longer, and under the hood is a 1.4-liter turbo four making 160 hp and 184 lb-ft versus the Miata’s 155 hp and 148 lb-ft."
+    }
+  ]
+}
